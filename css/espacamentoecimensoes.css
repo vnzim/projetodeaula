@@ -1,0 +1,11 @@
+p {
+  background-color: peru;
+  height: 200px;
+  width: 250px;
+  padding-top: 20px;
+  padding: 10px 15px;
+  padding: 10px 20px;
+  padding: 10px 20px 15px 5px; /*10px cima 20px direita  15px abaixo 5px esquerda*/
+  /*padding serve para mexer com as direções do seu texto ou imagem*/
+  margin: 2px auto;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css teste/formulario2.css" />
+  </head>
+  <body>
+    <form action="" method="post">
+      <h2>Deixe um comentário</h2>
+      <label for="text-input">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required /><br /><br />
+
+      <label for="text-input">E-mail:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="text-input">Website:</label>
+      <input type="url" id="website" name="website" /><br /><br />
+
+      <label for="text-input">Comentário:</label>
+      <!--Representa uma legenda para item-->
+      <textarea
+        id="comentário"
+        name="comentário"
+        rows="4"
+        cols="50"
+        required
+      ></textarea
+      ><br /><br />
+      <p>
+        Observação: Seu comentário será publicado após passar pelo moderador.
+      </p>
+
+      <input type="submit" value="Enviar comentário" />
+    </form>
+  </body>
+</html>
